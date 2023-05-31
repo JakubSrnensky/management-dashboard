@@ -1,0 +1,14 @@
+.card {
+    background-color: white;
+    border: 0.05rem solid rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+
+    &-auth {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 400px;
+        width: 100%;
+    }
+}
